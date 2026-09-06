@@ -1,0 +1,12 @@
+{
+  "name": "training-mini-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start:auth": "node --env-file=.env api-server.js",
+    "test:rate-limit": "node --test rate-limit.test.js",
+    "test:auth": "node --test auth.test.js",
+    "test:authorization": "node --test authorization.test.js",
+    "start:bot": "node --env-file=.env bot.js"
+  }
+}
